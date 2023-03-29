@@ -152,7 +152,6 @@ color: #434455;
 .logo-footer {
     font-family: 'Raleway',
         sans-serif;
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -163,7 +162,6 @@ color: #434455;
 }
 .logo-footer-studio {
     font-family: 'Raleway';
-        font-style: normal;
         font-weight: 800;
         font-size: 18px;
         line-height: 1.17;
@@ -173,14 +171,46 @@ color: #434455;
         color: #F4F4FD;
 }
 .footer-title {
-font-family: "Raleway", sans-serif;
-    font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 1.50;
+    font-size: 14px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: #F4F4FD;
 }
 .footer-background {
     background-color:#2e2f42
+}
+/*--------------- Portfolio ---------------*/
+
+.button-list {
+    list-style: none;
+}
+.button-navigation {
+    cursor: pointer;
+    background-color: #f5f4fa;
+    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+.button-navigation:hover,
+.button-navigation:focus {
+    background-color: #404BBF;
+    color: #ffffff;
+}
+/*--------------- Foto ---------------*/
+.portfolio-header {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+    
+        letter-spacing: 0.02em;
+        color: #2E2F42;
+}
+.portfolio-text {
+    font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
 }
